@@ -1,0 +1,28 @@
+D-Link DIR-320 stand
+
+## Run barebox ##
+
+1. reset DIR-320;
+
+2. press Ctrl-C to stop CFE;
+
+3. run barebox
+
+CFE> ifconfig eth0 -addr=192.168.0.99
+CFE> boot -tftp -addr=a0800000 -raw 192.168.0.1:antony/barebox.dir-320.bin
+
+##
+             _________
+            | EJTAG   |
+         ___| Adapter |_________EJTAG____
+        |   |_________|                  |
+        |    _____________           ____|____
+        |   |             |         |         |
+       USB__|     zoo     |_________| DIR320  |
+            |_____________| Ethernet|_________|
+               |USB                      |
+             __|_____                    |
+            | UART   |          UART     |
+            | Adapter|-------------------
+            |________|
+

@@ -1,0 +1,13 @@
+D-Link DIR-320 stand TIPs
+=========================
+
+## Run barebox ##
+
+1. reset DIR-320;
+
+2. press Ctrl-C to stop linux booting and go to CFE console;
+
+3. run barebox from CFE console:
+
+CFE> ifconfig eth0 -addr=192.168.0.99
+CFE> boot -tftp -addr=a0800000 -raw 192.168.0.1:antony/barebox.dir-320.bin

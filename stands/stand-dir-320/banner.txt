@@ -1,0 +1,27 @@
+ 
+
+
+
+
+
+
+
+
+mmmm   mmmmm  mmmmm          mmmm   mmmm   mmmm 
+ #   "m   #    #   "#        "   "# "   "# m"  "m
+ #    #   #    #mmmm"          mmm"     m" #  m #
+ #    #   #    #   "m  """       "#   m"   #    #
+ #mmm"  mm#mm  #    "        "mmm#" m#mmmm  #mm# 
+
+
+Welcome to the 'DIR-320' stand!
+
+Use this stand for remote D-Link DIR-320 access!
+
+use ctrl-f 0 to select this (help) window
+use ctrl-f 1 to select power control window
+use ctrl-f 2 to select UART window
+use ctrl-f 3 to select openocd window
+
+
+-------------------------------------------------------------------------------

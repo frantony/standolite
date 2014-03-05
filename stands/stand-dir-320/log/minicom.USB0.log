@@ -1,0 +1,1900 @@
+
+# 
+# 
+# 
+# 
+# 
+# 
+# [/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+
+# 
+# [/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+
+# 
+# 
+# 
+# 
+# help
+
+Built-in commands:
+-------------------
+	. : break cd continue eval exec exit export help login newgrp
+	read readonly set shift times trap umask wait
+
+# cat /pr# cat /proc/cop  puin# cat /proc/cpuinfo 
+system type		: Broadcom BCM5354 chip rev 3
+processor		: 0
+cpu model		: BCM3302 V2.9
+BogoMIPS		: 237.56
+wait instruction	: no
+microsecond timers	: yes
+tlb_entries		: 32
+extra interrupt vector	: no
+hardware watchpoint	: no
+VCED exceptions		: not available
+VCEI exceptions		: not available
+unaligned_instructions	: 3
+dcache hits		: 0
+dcache misses		: 0
+icache hits		: 0
+icache misses		: 0
+instructions		: 0
+# q Decompressing...........done
+
+
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Wed Mar 18 10:12:27 CST 2009 (leon@enzo)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 262144(0x40000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.3.0
+CPU type 0x29029: 240MHz
+Total memory: 32768 KBytes
+
+Total memory used by CFE:  0x80300000 - 0x803C0720 (788256)
+Initialized Data:          0x80337730 - 0x8033AE50 (14112)
+BSS Area:                  0x8033AE50 - 0x8033C720 (6352)
+Local Heap:                0x8033C720 - 0x803A0720 (409600)
+Stack Area:                0x803A0720 - 0x803C0720 (131072)
+Text (code) segment:       0x80300000 - 0x80337730 (227120)
+Boot area (physical):      0x003C1000 - 0x00401000
+Relocation Factor:         I:00000000 - D:00000000
+
+alpha bootcode ver 0.1.3
+cmd = ifconfig eth0 -addr=192.168.0.1 -mask=255.255.255.0
+We disable the arp for self.
+We disable the arp for self.
+Device eth0:  hwaddr F0-7D-68-75-DD-31, ipaddr 192.168.0.1, mask 255.255.255.0
+        gateway not set, nameserver not set
+cmd = go;
+cmd = load -raw -addr=0x803c0720 -max=0x3a0000 :
+Loader:raw Filesys:tftp Dev:eth0 File:: Options:(null)
+Loading: Failed.
+Could not load :: Timeout occured
+Dest=80001000, source =803c0720, filename=flash1.trx
+image_head_Check OK
+magic = 20040220
+image size = 3100704
+devname = /dev/mtdblock/2
+digest check OK!!
+insize = 1048576, out size =8388608
+uncompressed size = 2203648
+lzma decompress success !
+Closing network.
+Starting program at 0x80001000
+CPU revision is: 00029029
+Primary instruction cache 16kb, linesize 16 bytes (4 ways)
+Primary data cache 16kb, linesize 16 bytes (2 ways)
+Linux version 2.4.20 (stpaul@enzo) (gcc version 3.2.3 with Broadcom modifications) #1 Mon Feb 4 17:51:41 CST 2008
+no need to call nvram_init()
+Setting the PFC to its default value
+Determined physical RAM map:
+ memory: 02000000 @ 00000000 (usable)
+On node 0 totalpages: 8192
+zone(0): 8192 pages.
+zone(1): 0 pages.
+zone(2): 0 pages.
+Kernel command line: root=/dev/mtdblock1 noinitrd console=ttyS0,115200
+CPU: BCM5354 rev 3 at 240 MHz
+Calibrating delay loop... 237.56 BogoMIPS
+Memory: 30036k/32768k available (1935k kernel code, 2732k reserved, 128k data, 68k init, 0k highmem)
+Dentry cache hash table entries: 4096 (order: 3, 32768 bytes)
+Inode cache hash table entries: 2048 (order: 2, 16384 bytes)
+Mount-cache hash table entries: 512 (order: 0, 4096 bytes)
+Buffer-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Page-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Checking for 'wait' instruction...  unavailable.
+POSIX conformance testing by UNIFIX
+PCI: no core
+PCI: Fixing up bus 0
+Linux NET4.0 for Linux 2.4
+Based upon Swansea University Computer Society NET3.039
+Initializing RT netlink socket
+Starting kswapd
+devfs: v1.12c (20020818) Richard Gooch (rgooch@atnf.csiro.au)
+devfs: boot_options: 0x1
+pty: 256 Unix98 ptys configured
+Serial driver version 5.05c (2001-07-08) with MANY_PORTS SHARE_IRQ SERIAL_PCI enabled
+ttyS00 at 0xb8000300 (irq = 3) is a 16550A
+ttyS01 at 0xb8000400 (irq = 0) is a 16550A
+HDLC line discipline: version $Revision$, maxframe=4096
+N_HDLC line discipline registered.
+PPP generic driver version 2.4.2
+PPP MPPE Compression module registered
+SCSI subsystem driver Revision: 1.00
+kmod: failed to exec /sbin/modprobe -s -k scsi_hostadapter, errno = 2
+kmod: failed to exec /sbin/modprobe -s -k scsi_hostadapter, errno = 2
+ Amd/Fujitsu Extended Query Table v1.3 at 0x0040
+ELBOX Physically mapped flash: Swapping erase regions for broken CFI table.
+number of CFI chips: 1
+Flash device: 0x400000 at 0x1fc00000
+ELBOX Physically mapped flash: squashfs filesystem found at block 960
+Creating 8 MTD partitions on "ELBOX Physically mapped flash":
+0x000f0080-0x00335080 : "rootfs"
+0x00040000-0x003e0000 : "upgrade"
+0x00Decompressing...........done
+
+
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Wed Mar 18 10:12:27 CST 2009 (leon@enzo)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 262144(0x40000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.3.0
+CPU type 0x29029: 240MHz
+Total memory: 32768 KBytes
+
+Total memory used by CFE:  0x80300000 - 0x803C0720 (788256)
+Initialized Data:          0x80337730 - 0x8033AE50 (14112)
+BSS Area:                  0x8033AE50 - 0x8033C720 (6352)
+Local Heap:                0x8033C720 - 0x803A0720 (409600)
+Stack Area:                0x803A0720 - 0x803C0720 (131072)
+Text (code) segment:       0x80300000 - 0x80337730 (227120)
+Boot area (physical):      0x003C1000 - 0x00401000
+Relocation Factor:         I:00000000 - D:00000000
+
+alpha bootcode ver 0.1.3
+cmd = ifconfig eth0 -addr=192.168.0.1 -mask=255.255.255.0
+We disable the arp for self.
+We disable the arp for self.
+Device eth0:  hwaddr F0-7D-68-75-DD-31, ipaddr 192.168.0.1, mask 255.255.255.0
+        gateway not set, nameserver not set
+cmd = go;
+cmd = load -raw -addr=0x803c0720 -max=0x3a0000 :
+Loader:raw Filesys:tftp Dev:eth0 File:: Options:(null)
+Loading: Failed.
+Could not load :: Timeout occured
+Dest=80001000, source =803c0720, filename=flash1.trx
+image_head_Check OK
+magic = 20040220
+image size = 3100704
+devname = /dev/mtdblock/2
+Decompressing...........done
+
+
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Wed Mar 18 10:12:27 CST 2009 (leon@enzo)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 262144(0x40000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.3.0
+CPU type 0x29029: 240MHz
+Total memory: 32768 KBytes
+
+Total memory used by CFE:  0x80300000 - 0x803C0720 (788256)
+Initialized Data:          0x80337730 - 0x8033AE50 (14112)
+BSS Area:                  0x8033AE50 - 0x8033C720 (6352)
+Local Heap:                0x8033C720 - 0x803A0720 (409600)
+Stack Area:                0x803A0720 - 0x803C0720 (131072)
+Text (code) segment:       0x80300000 - 0x80337730 (227120)
+Boot area (physical):      0x003C1000 - 0x00401000
+Relocation Factor:         I:00000000 - D:00000000
+
+alpha bootcode ver 0.1.3
+cmd = ifconfig eth0 -addr=192.168.0.1 -mask=255.255.255.0
+We disable the arp for self.
+We disable the arp for self.
+Device eth0:  hwaddr F0-7D-68-75-DD-31, ipaddr 192.168.0.1, mask 255.255.255.0
+        gateway not set, nameserver not set
+cmd = go;
+cmd = load -raw -addr=0x803c0720 -max=0x3a0000 :
+Loader:raw Filesys:tftp Dev:eth0 File:: Options:(null)
+Loading: Failed.
+Could not load :: Interrupted
+
+Web Server Staring...
+CFE> web info: Waiting for connection on socket 0.^C
+CFE> ^C
+CFE> ^C
+CFE> ^C
+CFE> 
+cmd = 
+CFE> 
+cmd = 
+CFE> ifconfig eth0 -addr=192.168.0.99
+cmd = ifconfig eth0 -addr=192.168.0.99
+We disable the arp for self.
+Device eth0:  hwaddr F0-7D-68-75-DD-31, ipaddr 192.168.0.99, mask 255.255.255.0
+        gateway not set, nameserver not set
+*** command status = 0
+CFE> boot -tftp -addr=a0800000 -raw 192.168.0.1:antony/barebox.dir-320.bin
+cmd = boot -tftp -addr=a0800000 -raw 192.168.0.1:antony/barebox.dir-320.bin
+Loader:raw Filesys:tftp Dev:eth0 File:192.168.0.1:antony/barebox.dir-320.bin Options:(null)
+Loading: entry point=A0800000
+.. 224696 bytes read
+Entry at 0xa0800000
+Closing network.
+Starting program at 0xa0800000
+
+
+barebox 2014.01.0-00228-gac50230 #791 Sat Feb 1 12:38:11 MSK 2014
+
+
+Board: D-Link DIR-320
+netconsole: registered as cs1
+malloc space: 0xa0400000 -> 0xa07fffff (size 4 MiB)
+Open /dev/env0 No such file or directory
+running /env/bin/init...
+/env/bin/init not found
+login: password not set
+barebox:/ 
+barebox:/ 
+barebox:/ 
+barebox:/ 
+barebox:/ 
+barebox:/ 
+barebox:/ kruto :)        devinfo
+devices:
+`---- global
+`---- platform
+     `---- ns16550_serial0
+          `---- cs0
+     `---- mem0
+          `---- 0x00000000-0x01ffffff: /dev/kseg0_ram0
+     `---- mem1
+          `---- 0x00000000-0x01ffffff: /dev/kseg1_ram0
+     `---- mem2
+          `---- 0x00000000-0xfffffffe: /dev/mem
+     `---- cs1
+`---- fs
+     `---- ramfs0
+     `---- devfs0
+`---- net
+
+drivers:
+ns16550_serial
+ramfs
+devfs
+fat
+tftp
+mem
+cramfs
+barebox:/ help
+         . - alias for source
+         ? - alias for help
+         [ - alias for test
+   addpart - adds a partition table to a device
+     bootm - boot an application image
+       cat - concatenate file(s)
+        cd - change working directory
+     clear - clear screen
+        cp - copy files
+   cpuinfo - Show info about CPU
+     crc32 - crc32 checksum calculation
+   delpart - delete partition(s)
+   devinfo - Show information about devices and drivers.
+      dhcp - invoke dhcp client to obtain ip/boot params
+      echo - echo args to console
+      edit - Usage: (s)edit <file>
+     erase - erase FLASH memory
+    ethact - set current ethernet device
+      exit - exit script
+    export - export environment variables
+     false - do nothing, unsuccessfully
+    getopt - getopt <optstring> <var>
+        go - start application at address or file
+      help - print online help
+      host - resolve a hostname
+     loadb - Load binary file over serial line (kermit mode)
+   loadenv - Load environment from ENVFS into DIRECTORY (default: /dev/env0 -> /env).
+     loadx - Load binary file over serial line (X-Modem)
+     loady - Load binary file over serial line (Y-Modem or Y-Modem/G)
+     login - login
+        ls - list a file or directory
+        md - memory display
+    md5sum - md5 checksum calculation
+    memcmp - memory compare
+    memcpy - memory copy
+   meminfo - print info about memory usage
+    memset - memory fill
+      menu - Menu Management
+     mkdir - make directories
+     mount - Mount a filesystem of a given type to a mountpoint or list mounted filesystems.
+        mw - memory write (fill)
+       nfs - boot image via network using nfs protocol
+    passwd - passwd
+      ping - ping <destination>
+  printenv - Print value of one or all environment variables.
+   protect - enable flash write protection
+       pwd - print working directory
+  readline - prompt for user input
+     reset - Perform RESET of the CPU
+        rm - remove files
+     rmdir - remove directorie(s)
+   saveenv - save environment to persistent storage
+     sedit - alias for edit
+        sh - run shell script
+   sha1sum - sha1 checksum calculation
+ sha256sum - sha256 checksum calculation
+     sleep - delay execution for n seconds
+    source - execute shell script in current shell environment
+      test - minimal test like /bin/sh
+      tftp - (up-)Load file using tftp protocol
+      time - measure execution time of a command
+   timeout - wait for a specified timeout
+      true - do nothing, successfully
+    umount - umount a filesystem
+uncompress - uncompress a compressed file
+ unprotect - disable flash write protection
+   version - print monitor version
+barebox:/ iomem
+iomem: No such file or directory
+barebox:/ meminfo
+max system bytes =      24576
+system bytes     =      24576
+in use bytes     =      23560
+barebox:/ meminfo       iomem     help    devinfo       help    iomem     meminfo       help
+         . - alias for source
+         ? - alias for help
+         [ - alias for test
+   addpart - adds a partition table to a device
+     bootm - boot an application image
+       cat - concatenate file(s)
+        cd - change working directory
+     clear - clear screen
+        cp - copy files
+   cpuinfo - Show info about CPU
+     crc32 - crc32 checksum calculation
+   delpart - delete partition(s)
+   devinfo - Show information about devices and drivers.
+      dhcp - invoke dhcp client to obtain ip/boot params
+      echo - echo args to console
+      edit - Usage: (s)edit <file>
+     erase - erase FLASH memory
+    ethact - set current ethernet device
+      exit - exit script
+    export - export environment variables
+     false - do nothing, unsuccessfully
+    getopt - getopt <optstring> <var>
+        go - start application at address or file
+      help - print online help
+      host - resolve a hostname
+     loadb - Load binary file over serial line (kermit mode)
+   loadenv - Load environment from ENVFS into DIRECTORY (default: /dev/env0 -> /env).
+     loadx - Load binary file over serial line (X-Modem)
+     loady - Load binary file over serial line (Y-Modem or Y-Modem/G)
+     login - login
+        ls - list a file or directory
+        md - memory display
+    md5sum - md5 checksum calculation
+    memcmp - memory compare
+    memcpy - memory copy
+   meminfo - print info about memory usage
+    memset - memory fill
+      menu - Menu Management
+     mkdir - make directories
+     mount - Mount a filesystem of a given type to a mountpoint or list mounted filesystems.
+        mw - memory write (fill)
+       nfs - boot image via network using nfs protocol
+    passwd - passwd
+      ping - ping <destination>
+  printenv - Print value of one or all environment variables.
+   protect - enable flash write protection
+       pwd - print working directory
+  readline - prompt for user input
+     reset - Perform RESET of the CPU
+        rm - remove files
+     rmdir - remove directorie(s)
+   saveenv - save environment to persistent storage
+     sedit - alias for edit
+        sh - run shell script
+   sha1sum - sha1 checksum calculation
+ sha256sum - sha256 checksum calculation
+     sleep - delay execution for n seconds
+    source - execute shell script in current shell environment
+      test - minimal test like /bin/sh
+      tftp - (up-)Load file using tftp protocol
+      time - measure execution time of a command
+   timeout - wait for a specified timeout
+      true - do nothing, successfully
+    umount - umount a filesystem
+uncompress - uncompress a compressed file
+ unprotect - disable flash write protection
+   version - print monitor version
+barebox:/ 
+barebox:/ 
+barebox:/ 
+barebox:/ Decompressing...........done
+
+
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Wed Mar 18 10:12:27 CST 2009 (leon@enzo)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 262144(0x40000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.3.0
+CPU type 0x29029: 240MHz
+Total memory: 32768 KBytes
+
+Total memory used by CFE:  0x80300000 - 0x803C0720 (788256)
+Initialized Data:          0x80337730 - 0x8033AE50 (14112)
+BSS Area:                  0x8033AE50 - 0x8033C720 (6352)
+Local Heap:                0x8033C720 - 0x803A0720 (409600)
+Stack Area:                0x803A0720 - 0x803C0720 (131072)
+Text (code) segment:       0x80300000 - 0x80337730 (227120)
+Boot area (physical):      0x003C1000 - 0x00401000
+Relocation Factor:         I:00000000 - D:00000000
+
+alpha bootcode ver 0.1.3
+cmd = ifconfig eth0 -addr=192.168.0.1 -mask=255.255.255.0
+We disable the arp for self.
+We disable the arp for self.
+Device eth0:  hwaddr F0-7D-68-75-DD-31, ipaddr 192.168.0.1, mask 255.255.255.0
+        gateway not set, nameserver not set
+cmd = go;
+cmd = load -raw -addr=0x803c0720 -max=0x3a0000 :
+Loader:raw Filesys:tftp Dev:eth0 File:: Options:(null)
+Loading: Failed.
+Could not load :: Interrupted
+
+Web Server Staring...
+CFE> web info: Waiting for connection on socket 0.^C
+CFE> ^C
+CFE> ^C
+CFE> ^C
+CFE> 
+cmd = 
+CFE> 
+cmd = 
+CFE>  ifconfig eth0 -addr=192.168.0.9
+cmd =  ifconfig eth0 -addr=192.168.0.9
+We disable the arp for self.
+Device eth0:  hwaddr F0-7D-68-75-DD-31, ipaddr 192.168.0.9, mask 255.255.255.0
+        gateway not set, nameserver not set
+*** command status = 0
+CFE>  boot -tftp -addr=a0800000 -raw 192.168.0.1:antony/barebox.dir-320.bin
+cmd =  boot -tftp -addr=a0800000 -raw 192.168.0.1:antony/barebox.dir-320.bin
+Loader:raw Filesys:tftp Dev:eth0 File:192.168.0.1:antony/barebox.dir-320.bin Options:(null)
+Loading: entry point=A0800000
+.. 224696 bytes read
+Entry at 0xa0800000
+Closing network.
+Starting program at 0xa0800000
+
+
+barebox 2014.01.0-00228-gac50230 #791 Sat Feb 1 12:38:11 MSK 2014
+
+
+Board: D-Link DIR-320
+netconsole: registered as cs1
+malloc space: 0xa0400000 -> 0xa07fffff (size 4 MiB)
+Open /dev/env0 No such file or directory
+running /env/bin/init...
+/env/bin/init not found
+login: password not set
+barebox:/ 
+barebox:/ version
+
+barebox 2014.01.0-00228-gac50230 #791 Sat Feb 1 12:38:11 MSK 2014
+
+barebox:/ 
+barebox:/ 
+barebox:/ 
+barebox:/ Decompressing...........done
+
+
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Wed Mar 18 10:12:27 CST 2009 (leon@enzo)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 262144(0x40000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.3.0
+CPU type 0x29029: 240MHz
+Total memory: 32768 KBytes
+
+Total memory used by CFE:  0x80300000 - 0x803C0720 (788256)
+Initialized Data:          0x80337730 - 0x8033AE50 (14112)
+BSS Area:                  0x8033AE50 - 0x8033C720 (6352)
+Local Heap:                0x8033C720 - 0x803A0720 (409600)
+Stack Area:                0x803A0720 - 0x803C0720 (131072)
+Text (code) segment:       0x80300000 - 0x80337730 (227120)
+Boot area (physical):      0x003C1000 - 0x00401000
+Relocation Factor:         I:00000000 - D:00000000
+
+alpha bootcode ver 0.1.3
+cmd = ifconfig eth0 -addr=192.168.0.1 -mask=255.255.255.0
+We disable the arp for self.
+We disable the arp for self.
+Device eth0:  hwaddr F0-7D-68-75-DD-31, ipaddr 192.168.0.1, mask 255.255.255.0
+        gateway not set, nameserver not set
+cmd = go;
+cmd = load -raw -addr=0x803c0720 -max=0x3a0000 :
+Loader:raw Filesys:tftp Dev:eth0 File:: Options:(null)
+Loading: Decompressing...........done
+Decompressing...........done
+
+
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Wed Mar 18 10:12:27 CST 2009 (leon@enzo)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 262144(0x40000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.3.0
+CPU type 0x29029: 240MHz
+Total memory: 32768 KBytes
+
+Total memory used by CFE:  0x80300000 - 0x803C0720 (788256)
+Initialized Data:          0x80337730 - 0x8033AE50 (14112)
+BSS Area:                  0x8033AE50 - 0x8033C720 (6352)
+Local Heap:                0x8033C720 - 0x803A0720 (409600)
+Stack Area:                0x803A0720 - 0x803C0720 (131072)
+Text (code) segment:       0x80300000 - 0x80337730 (227120)
+Boot area (physical):      0x003C1000 - 0x00401000
+Relocation Factor:         I:00000000 - D:00000000
+
+alpha bootcode ver 0.1.3
+cmd = ifconfig eth0 -addr=192.168.0.1 -mask=255.255.255.0
+We disable the arp for self.
+We disable the arp for self.
+Device eth0:  hwaddr F0-7D-68-75-DD-31, ipaddr 192.168.0.1, mask 255.255.255.0
+        gateway not set, nameserver not set
+cmd = go;
+cmd = load -raw -addr=0x803c0720 -max=0x3a0000 :
+Loader:raw Filesys:tftp Dev:eth0 File:: Options:(null)
+Loading: Failed.
+Could not load :: Timeout occured
+Dest=80001000, source =803c0720, filename=flash1.trx
+image_head_Check OK
+magic = 20040220
+image size = 3100704
+devname = /dev/mtdblock/2
+Decompressing...........done
+
+
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Wed Mar 18 10:12:27 CST 2009 (leon@enzo)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 262144(0x40000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.3.0
+CPU type 0x29029: 240MHz
+Total memory: 32768 KBytes
+
+Total memory used by CFE:  0x80300000 - 0x803C0720 (788256)
+Initialized Data:          0x80337730 - 0x8033AE50 (14112)
+BSS Area:                  0x8033AE50 - 0x8033C720 (6352)
+Local Heap:                0x8033C720 - 0x803A0720 (409600)
+Stack Area:                0x803A0720 - 0x803C0720 (131072)
+Text (code) segment:       0x80300000 - 0x80337730 (227120)
+Boot area (physical):      0x003C1000 - 0x00401000
+Relocation Factor:         I:00000000 - D:00000000
+
+alpha bootcode ver 0.1.3
+cmd = ifconfig eth0 -addr=192.168.0.1 -mask=255.255.255.0
+We disable the arp for self.
+We disable the arp for self.
+Device eth0:  hwaddr F0-7D-68-75-DD-31, ipaddr 192.168.0.1, mask 255.255.255.0
+        gateway not set, nameserver not set
+cmd = go;
+cmd = load -raw -addr=0x803c0720 -max=0x3a0000 :
+Loader:raw Filesys:tftp Dev:eth0 File:: Options:(null)
+Loading: Failed.
+Could not load :: Timeout occured
+Dest=80001000, source =803c0720, filename=flash1.trx
+image_head_Check OK
+magic = 20040220
+image size = 3100704
+devname = /dev/mtdblock/2
+digest check OK!!
+insize = 1048576, out size =8388608
+uncompressed size = 2203648
+lzma decompress success !
+Closing network.
+Starting program at 0x80001000
+CPU revision is: 00029029
+Primary instruction cache 16kb, linesize 16 bytes (4 ways)
+Primary data cache 16kb, linesize 16 bytes (2 ways)
+Linux version 2.4.20 (stpaul@enzo) (gcc version 3.2.3 with Broadcom modifications) #1 Mon Feb 4 17:51:41 CST 2008
+no need to call nvram_init()
+Setting the PFC to its default value
+Determined physical RAM map:
+ memory: 02000000 @ 00000000 (usable)
+On node 0 totalpages: 8192
+zone(0): 8192 pages.
+zone(1): 0 pages.
+zone(2): 0 pages.
+Kernel command line: root=/dev/mtdblock1 noinitrd console=ttyS0,115200
+CPU: BCM5354 rev 3 at 240 MHz
+Calibrating delay loop... 237.56 BogoMIPS
+Memory: 30036k/32768k available (1935k kernel code, 2732k reserved, 128k data, 68k init, 0k highmem)
+Dentry cache hash table entries: 4096 (order: 3, 32768 bytes)
+Inode cache hash table entries: 2048 (order: 2, 16384 bytes)
+Mount-cache hash table entries: 512 (order: 0, 4096 bytes)
+Buffer-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Page-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Checking for 'wait' instruction...  unavailable.
+POSIX conformance testing by UNIFIX
+PCI: no core
+PCI: Fixing up bus 0
+Linux NET4.0 for Linux 2.4
+Based upon Swansea University Computer Society NET3.039
+Initializing RT netlink socket
+Starting kswapd
+devfs: v1.12c (20020818) Richard Gooch (rgooch@atnf.csiro.au)
+devfs: boot_options: 0x1
+pty: 256 Unix98 ptys configured
+Serial driver version 5.05c (2001-07-08) with MANY_PORTS SHARE_IRQ SERIAL_PCI enabled
+ttyS00 at 0xb8000300 (irq = 3) is a 16550A
+ttyS01 at 0xb8000400 (irq = 0) is a 16550A
+HDLC line discipline: version $Revision$, maxframe=4096
+N_HDLC line discipline registered.
+PPP generic driver version 2.4.2
+PPP MPPE Compression module registered
+SCSI subsystem driver Revision: 1.00
+kmod: failed to exec /sbin/modprobe -s -k scsi_hostadapter, errno = 2
+kmod: failed to exec /sbin/modprobe -s -k scsi_hostadapter, errno = 2
+ Amd/Fujitsu Extended Query Table v1.3 at 0x0040
+ELBOX Physically mapped flash: Swapping erase regions for broken CFI table.
+number of CFI chips: 1
+Flash device: 0x400000 at 0x1fc00000
+ELBOX Physically mapped flash: squashfs filesystem found at block 960
+Creating 8 MTD partitions on "ELBOX Physically mapped flash":
+0x000f0080-0x00335080 : "rootfs"
+0x00040000-0x003e0000 : "upgrade"
+0x00030000-0x00040000 : "rgdb"
+0x003f6000-0x003f8000 : "bdcfg"
+0x003e0000-0x003f0000 : "langpack"
+0x00000000-0x00400000 : "flash"
+0x00000000-0x00030000 : "Boot"
+0x003f8000-0x00400000 : "nvram"
+usb.c: registered new driver usbdevfs
+usb.c: registered new driver hub
+ehci_hcd 00:03.1: PCI device 14e4:471a
+ehci_hcd 00:03.1: irq 6, pci mem b8003800
+usb.c: new USB bus registered, assigned bus number 1
+ehci_hcd 00:03.1: illegal capability!
+PCI: 00:03.1 PCI cache line size set incorrectly (0 bytes) by BIOS/FW, correcting to 32
+ehci_hcd 00:03.1: USB 0.0 enabled, EHCI 1.00, driver 2003-Dec-29/2.4
+hub.c: USB hub found
+hub.c: 2 ports detected
+host/usb-ohci.c: USB OHCI at membase 0xb8003000, IRQ 6
+host/usb-ohci.c: usb-00:03.0, PCI device 14e4:471a
+usb.c: new USB bus registered, assigned bus number 2
+hub.c: USB hub found
+hub.c: 2 ports detected
+usb.c: registered new driver usblp
+printer.c: v0.13: USB Printer Device Class driver
+Initializing USB Mass Storage driver...
+usb.c: registered new driver usb-storage
+USB Mass Storage support registered.
+NET4: Linux TCP/IP 1.0 for NET4.0
+IP Protocols: ICMP, UDP, TCP, IGMP
+Register ARP FLOOD sysctl entry successes!
+IP: routing cache hash table of 512 buckets, 4Kbytes
+TCP: Hash tables configured (established 2048 bind 4096)
+Linux IP multicast router 0.06 plus PIM-SM
+ip_conntrack version 2.1 (256 buckets, 2048 max) - 344 bytes per conntrack
+ip_tables: (C) 2000-2002 Netfilter core team
+ipt_time loading
+NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+NET4: Ethernet Bridge 008 for NET4.0
+802.1Q VLAN Support v1.7 Ben Greear <greearb@candelatech.com>
+All bugs added by David S. Miller <davem@redhat.com>
+FAT: bogus logical sector size 19968
+VFS: Mounted root (squashfs filesystem) readonly.
+Mounted devfs on /dev
+Freeing unused kernel memory: 68k freed
+init started:  BusyBox v1.00 (2008.02.12-07:24+0000) multi-call binary
+Starting pid 15, console /dev/tts/0: '/etc/init.d/rcS'
+Algorithmics/MIPS FPU Emulator v1.5
+[/etc/init.d/S03config.sh]
+Mounting proc and var ...
+Start xmldb ...
+[/etc/scripts/misc/profile.sh] get ...
+[/etc/scripts/misc/defnodes.sh] ...
+[/etc/defnodes/S10setext.sh] ...
+PHP [/etc/defnodes/S11setnodes.php] ...
+PHP [/etc/defnodes/S12features.php] ...
+PHP [/etc/defnodes/S13flashspeed.php] ...
+PHP [/etc/defnodes/S20setnodes.php] ...
+FAT: bogus logical sector size 17990
+VFS: Can't find a valid FAT filesystem on dev 1f:05.
+SQUASHFS error: Can't find a SQUASHFS superblock on mtdblock(31,5)
+mount: Mounting /dev/mtdblock/5 on /www/locale/alt failed: Invalid argument
+PHP [/etc/defnodes/S40brand.php] ...
+[/etc/scripts/misc/defnodes.sh] Done !!
+[/etc/templates/timezone.sh] ...
+[/etc/templates/logs.sh] ...
+[/var/run/logs_run.sh] ...
+Using /lib/modules/wl_apsta.o
+no need to call nvram_init()
+eth0: Broadcom BCM4318 802.11 Wireless Controller 4.150.10.5
+Set name-type for VLAN subsystem. Should be visible in /proc/net/vlan/config
+[/etc/templates/webs.sh] start ...
+[/var/run/webs_start.sh] ...
+Starting HTTPD ...
+/proc/sys/net/ipv4/netfilter/ip_conntrack_tcp_timeout_established: cannot create
+[/etc/init.d/S03config.sh] done!
+[/etc/init.d/S10system.sh]
+start fresetd ...
+Factory reset time : 5 secs
+WPS command : [/etc/templates/wps.sh pbc &]
+start scheduled ...
+[/etc/templates/scheduled.sh] start ...
+[/var/run/scheduled_start.sh] ...
+Start scheduled ...
+setup layout ...
+[/etc/scripts/layout.sh] start ...
+[/var/run/layout_start.sh] ...
+Start router layout ...
+Using /lib/modules/et.o
+no need to call nvram_init()
+eth1: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.10.5
+eth1.6: Setting MAC address to  f0 7d 68 75 dd 30.
+device eth1 entered promiscuous mode
+VLAN (eth1.6):  Setting underlying device (eth1) to promiscious mode.
+eth1.0: Setting MAC address to  f0 7d 68 75 dd 2f.
+eth1.8: Setting MAC address to  f0 7d 68 75 dd 31.
+VLAN (eth1.8):  Underlying device (eth1) has same MAC, not checking promiscious mode.
+device eth0 entered promiscuous mode
+eth1.0: dev_set_promiscuity(master, 1)
+device eth1.0 entered promiscuous mode
+br0: port 2(eth1.0) entering learning state
+br0: port 2(eth1.0) entering forwarding state
+br0: topology change detected, propagating
+br0: port 1(eth0) multicast bandwidth 900kbps
+start LAN ...
+[/etc/templates/lan.sh] ...
+[/var/run/lan_start.sh] ...
+Start LAN (br0/192.168.0.1/255.255.255.0)...
+Start DHCP server (br0) ...
+Start igmp ...
+[/etc/templates/igmpproxy.sh] start ...
+[/var/run/igmpproxy_start.sh] ...
+Start IGMP proxy ...
+enable LAN ports ...
+Nothing to enable LAN ports!
+start WLAN ...
+[/etc/templates/wlan.sh] start ...
+[/var/run/wlan_start.sh] ...
+Start WLAN interface eth0 ...
+eth0: Numerical result out of range
+eth0: Invalid argument
+eth0: Invalid argument
+br0: port 1(eth0) entering learning state
+br0: port 1(eth0) entering forwarding state
+br0: topology change detected, propagating
+[/etc/templates/wps.sh] setie ...
+Configuration file: /var/run/hostapd.eth0.conf
+br0: port 1(eth0) entering disabled state
+Using interface eth0 with hwaddr f0:7d:68:75:dd:2f and ssid 'dlink'
+br0: port 1(eth0) entering learning state
+br0: port 1(eth0) entering forwarding state
+br0: topology change detected, propagating
+hostapd_setup_interface: return 0
+Start WLAN interface eth0 Done !!!
+start Guest Zone
+[/etc/templates/gzone.sh] ...
+[/var/run/gzone_start.sh] ...
+Start Guest Zone (br1/192.168.1.1/255.255.255.0)...
+[/etc/templates/enable_gzone.sh] ...
+[/var/run/enable_gzone_start.sh] ...
+start RG ...
+[/etc/templates/rg.sh] start ...
+[/var/run/rg_start.sh] ...
+Using /lib/modules/sw_tcpip.o
+REDSonic turbo net initialized
+imq driver loaded.
+Using /lib/modules/ifresetcnt.o
+Network interface reset count v1.0
+Using /lib/modules/ipt_string.o
+Using /lib/modules/ip_stun_func.o
+Register STUN module successes!
+sendto_unsock(/var/run/portt.unixsocket, flush)
+start DNRD ...
+[/etc/templates/dnrd.sh] ...
+[/var/run/dnrd_start.sh] ...
+Start DNRD ...
+Notice: caching turned off
+Start telnetd ...
+start UPNPD ...
+[/etc/templates/upnpd.sh] ...
+[/var/run/upnpd_start.sh] ...
+Starting UPnP ...
+[/var/run/upnp_alive.sh] ...
+start WAN ...
+Set WAN port media type 0
+[/etc/templates/wan.sh] start ...
+[/var/run/wan_start.sh] ...
+DHCP client on WAN(eth1.8) CloneMAC() ...
+start LLD2D ...
+[/etc/templates/lld2d.sh] ...
+[/var/run/lld2d_start.sh] ...
+Start LLD2 daemon ...
+start Neaps ...
+[/etc/templates/neaps.sh] start ...
+[/var/run/neaps_start.sh] ...
+Start Neap Server ...
+start lpd ...
+[/etc/templates/lpd.sh] ...
+killall: lpd: no process killed
+killall: rawlpd: no process killed
+shiang(797): Set_lpd_pid(5)
+shiang_lpd:s=515, Lpd_listen_port_DYN=(null), Lpd_port_DYN=515
+shiang_Ipp:s=off, Ipp_listen_port_DYN=off
+shiang_Unix:s=/var/run/lprng, Unix_socket_path_DYN=/var/run/lprng
+start igmpproxy ...
+[/etc/templates/igmpproxy.sh] start ...
+798: the pid_str=798 pofd 17 17!
+798: jobQueue_Init success!
+798: Into printer_Hotplug_Action()!
+798: After reset pDev_Queue, we check each entries!
+[/var/run/igmpproxy_stop.sh] ...
+Stop IGMP proxy ...
+[/etc/templates/igmpproxy_helper.sh] flush ...
+[/var/run/igmpproxy_helper.sh] ...
+[/etc/templates/rg.sh] misc ...
+[/var/run/rg_misc.sh] ...
+798: pclose!
+798: create socket success!
+798:The unix socket file path=/var/run/pof.d
+p9100d daemon
+server in ..
+after fork ..
+[/var/run/igmpproxy_start.sh] ...
+Start IGMP proxy ...
+[/etc/init.d/S10system.sh] done!
+rcS done!
+Starting pid 865, console /dev/tts/0: '/bin/sh'
+
+
+BusyBox v1.00 (2008.02.12-07:24+0000) Built-in shell (msh)
+Enter 'help' for a list of built-in commands.
+
+# [/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+Decompressing...........done
+
+
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Wed Mar 18 10:12:27 CST 2009 (leon@enzo)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 262144(0x40000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.3.0
+CPU type 0x29029: 240MHz
+Total memory: 32768 KBytes
+
+Total memory used by CFE:  0x80300000 - 0x803C0720 (788256)
+Initialized Data:          0x80337730 - 0x8033AE50 (14112)
+BSS Area:                  0x8033AE50 - 0x8033C720 (6352)
+Local Heap:                0x8033C720 - 0x803A0720 (409600)
+Stack Area:                0x803A0720 - 0x803C0720 (131072)
+Text (code) segment:       0x80300000 - 0x80337730 (227120)
+Boot area (physical):      0x003C1000 - 0x00401000
+Relocation Factor:         I:00000000 - D:00000000
+
+alpha bootcode ver 0.1.3
+cmd = ifconfig eth0 -addr=192.168.0.1 -mask=255.255.255.0
+We disable the arp for self.
+We disable the arp for self.
+Device eth0:  hwaddr F0-7D-68-75-DD-31, ipaddr 192.168.0.1, mask 255.255.255.0
+        gateway not set, nameserver not set
+cmd = go;
+cmd = load -raw -addr=0x803c0720 -max=0x3a0000 :
+Loader:raw Filesys:tftp Dev:eth0 File:: Options:(null)
+Loading: Failed.
+Could not load :: Timeout occured
+Dest=80001000, source =803c0720, filename=flash1.trx
+image_head_Check OK
+magic = 20040220
+image size = 3100704
+devname = /dev/mtdblock/2
+digest check OK!!
+insize = 1048576, out size =8388608
+uncompressed size = 2203648
+lzma decompress success !
+Closing network.
+Starting program at 0x80001000
+CPU revision is: 00029029
+Primary instruction cache 16kb, linesize 16 bytes (4 ways)
+Primary data cache 16kb, linesize 16 bytes (2 ways)
+Linux version 2.4.20 (stpaul@enzo) (gcc version 3.2.3 with Broadcom modifications) #1 Mon Feb 4 17:51:41 CST 2008
+no need to call nvram_init()
+Setting the PFC to its default value
+Determined physical RAM map:
+ memory: 02000000 @ 00000000 (usable)
+On node 0 totalpages: 8192
+zone(0): 8192 pages.
+zone(1): 0 pages.
+zone(2): 0 pages.
+Kernel command line: root=/dev/mtdblock1 noinitrd console=ttyS0,115200
+CPU: BCM5354 rev 3 at 240 MHz
+Calibrating delay loop... 237.56 BogoMIPS
+Memory: 30036k/32768k available (1935k kernel code, 2732k reserved, 128k data, 68k init, 0k highmem)
+Dentry cache hash table entries: 4096 (order: 3, 32768 bytes)
+Inode cache hash table entries: 2048 (order: 2, 16384 bytes)
+Mount-cache hash table entries: 512 (order: 0, 4096 bytes)
+Buffer-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Page-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Checking for 'wait' instruction...  unavailable.
+POSIX conformance testing by UNIFIX
+PCI: no core
+PCI: Fixing up bus 0
+Linux NET4.0 for Linux 2.4
+Based upon Swansea University Computer Society NET3.039
+Initializing RT netlink socket
+Starting kswapd
+devfs: v1.12c (20020818) Richard Gooch (rgooch@atnf.csiro.au)
+devfs: boot_options: 0x1
+pty: 256 Unix98 ptys configured
+Serial driver version 5.05c (2001-07-08) with MANY_PORTS SHARE_IRQ SERIAL_PCI enabled
+ttyS00 at 0xb8000300 (irq = 3) is a 16550A
+ttyS01 at 0xb8000400 (irq = 0) is a 16550A
+HDLC line discipline: version $Revision$, maxframe=4096
+N_HDLC line discipline registered.
+PPP generic driver version 2.4.2
+PPP MPPE Compression module registered
+SCSI subsystem driver Revision: 1.00
+kmod: failed to exec /sbin/modprobe -s -k scsi_hostadapter, errno = 2
+kmod: failed to exec /sbin/modprobe -s -k scsi_hostadapter, errno = 2
+ Amd/Fujitsu Extended Query Table v1.3 at 0x0040
+ELBOX Physically mapped flash: Swapping erase regions for broken CFI table.
+number of CFI chips: 1
+Flash device: 0x400000 at 0x1fc00000
+ELBOX Physically mapped flash: squashfs filesystem found at block 960
+Creating 8 MTD partitions on "ELBOX Physically mapped flash":
+0x000f0080-0x00335080 : "rootfs"
+0x00040000-0x003e0000 : "upgrade"
+0x00030000-0x00040000 : "rgdb"
+0x003f6000-0x003f8000 : "bdcfg"
+0x003e0000-0x003f0000 : "langpack"
+0x00000000-0x00400000 : "flash"
+0x00000000-0x00030000 : "Boot"
+0x003f8000-0x00400000 : "nvram"
+usb.c: registered new driver usbdevfs
+usb.c: registered new driver hub
+ehci_hcd 00:03.1: PCI device 14e4:471a
+ehci_hcd 00:03.1: irq 6, pci mem b8003800
+usb.c: new USB bus registered, assigned bus number 1
+ehci_hcd 00:03.1: illegal capability!
+PCI: 00:03.1 PCI cache line size set incorrectly (0 bytes) by BIOS/FW, correcting to 32
+ehci_hcd 00:03.1: USB 0.0 enabled, EHCI 1.00, driver 2003-Dec-29/2.4
+hub.c: USB hub found
+hub.c: 2 ports detected
+host/usb-ohci.c: USB OHCI at membase 0xb8003000, IRQ 6
+host/usb-ohci.c: usb-00:03.0, PCI device 14e4:471a
+usb.c: new USB bus registered, assigned bus number 2
+hub.c: USB hub found
+hub.c: 2 ports detected
+usb.c: registered new driver usblp
+printer.c: v0.13: USB Printer Device Class driver
+Initializing USB Mass Storage driver...
+usb.c: registered new driver usb-storage
+USB Mass Storage support registered.
+NET4: Linux TCP/IP 1.0 for NET4.0
+IP Protocols: ICMP, UDP, TCP, IGMP
+Register ARP FLOOD sysctl entry successes!
+IP: routing cache hash table of 512 buckets, 4Kbytes
+TCP: Hash tables configured (established 2048 bind 4096)
+Linux IP multicast router 0.06 plus PIM-SM
+ip_conntrack version 2.1 (256 buckets, 2048 max) - 344 bytes per conntrack
+ip_tables: (C) 2000-2002 Netfilter core team
+ipt_time loading
+NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+NET4: Ethernet Bridge 008 for NET4.0
+802.1Q VLAN Support v1.7 Ben Greear <greearb@candelatech.com>
+All bugs added by David S. Miller <davem@redhat.com>
+FAT: bogus logical sector size 19968
+VFS: Mounted root (squashfs filesystem) readonly.
+Mounted devfs on /dev
+Freeing unused kernel memory: 68k freed
+init started:  BusyBox v1.00 (2008.02.12-07:24+0000) multi-call binary
+Starting pid 15, console /dev/tts/0: '/etc/init.d/rcS'
+Algorithmics/MIPS FPU Emulator v1.5
+[/etc/init.d/S03config.sh]
+Mounting proc and var ...
+Start xmldb ...
+[/etc/scripts/misc/profile.sh] get ...
+[/etc/scripts/misc/defnodes.sh] ...
+[/etc/defnodes/S10setext.sh] ...
+PHP [/etc/defnodes/S11setnodes.php] ...
+PHP [/etc/defnodes/S12features.php] ...
+PHP [/etc/defnodes/S13flashspeed.php] ...
+PHP [/etc/defnodes/S20setnodes.php] ...
+FAT: bogus logical sector size 17990
+VFS: Can't find a valid FAT filesystem on dev 1f:05.
+SQUASHFS error: Can't find a SQUASHFS superblock on mtdblock(31,5)
+mount: Mounting /dev/mtdblock/5 on /www/locale/alt failed: Invalid argument
+PHP [/etc/defnodes/S40brand.php] ...
+[/etc/scripts/misc/defnodes.sh] Done !!
+[/etc/templates/timezone.sh] ...
+[/etc/templates/logs.sh] ...
+[/var/run/logs_run.sh] ...
+Using /lib/modules/wl_apsta.o
+no need to call nvram_init()
+eth0: Broadcom BCM4318 802.11 Wireless Controller 4.150.10.5
+Set name-type for VLAN subsystem. Should be visible in /proc/net/vlan/config
+[/etc/templates/webs.sh] start ...
+[/var/run/webs_start.sh] ...
+Starting HTTPD ...
+/proc/sys/net/ipv4/netfilter/ip_conntrack_tcp_timeout_established: cannot create
+[/etc/init.d/S03config.sh] done!
+[/etc/init.d/S10system.sh]
+start fresetd ...
+Factory reset time : 5 secs
+WPS command : [/etc/templates/wps.sh pbc &]
+start scheduled ...
+[/etc/templates/scheduled.sh] start ...
+[/var/run/scheduled_start.sh] ...
+Start scheduled ...
+setup layout ...
+[/etc/scripts/layout.sh] start ...
+[/var/run/layout_start.sh] ...
+Start router layout ...
+Using /lib/modules/et.o
+no need to call nvram_init()
+eth1: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.10.5
+eth1.6: Setting MAC address to  f0 7d 68 75 dd 30.
+device eth1 entered promiscuous mode
+VLAN (eth1.6):  Setting underlying device (eth1) to promiscious mode.
+eth1.0: Setting MAC address to  f0 7d 68 75 dd 2f.
+eth1.8: Setting MAC address to  f0 7d 68 75 dd 31.
+VLAN (eth1.8):  Underlying device (eth1) has same MAC, not checking promiscious mode.
+device eth0 entered promiscuous mode
+eth1.0: dev_set_promiscuity(master, 1)
+device eth1.0 entered promiscuous mode
+br0: port 2(eth1.0) entering learning state
+br0: port 2(eth1.0) entering forwarding state
+br0: topology change detected, propagating
+br0: port 1(eth0) multicast bandwidth 900kbps
+start LAN ...
+[/etc/templates/lan.sh] ...
+[/var/run/lan_start.sh] ...
+Start LAN (br0/192.168.0.1/255.255.255.0)...
+Start DHCP server (br0) ...
+Start igmp ...
+[/etc/templates/igmpproxy.sh] start ...
+[/var/run/igmpproxy_start.sh] ...
+Start IGMP proxy ...
+enable LAN ports ...
+Nothing to enable LAN ports!
+start WLAN ...
+[/etc/templates/wlan.sh] start ...
+[/var/run/wlan_start.sh] ...
+Start WLAN interface eth0 ...
+eth0: Numerical result out of range
+eth0: Invalid argument
+eth0: Invalid argument
+br0: port 1(eth0) entering learning state
+br0: port 1(eth0) entering forwarding state
+br0: topology change detected, propagating
+[/etc/templates/wps.sh] setie ...
+Configuration file: /var/run/hostapd.eth0.conf
+br0: port 1(eth0) entering disabled state
+Using interface eth0 with hwaddr f0:7d:68:75:dd:2f and ssid 'dlink'
+br0: port 1(eth0) entering learning state
+hostapd_setup_interface: return 0
+br0: port 1(eth0) entering forwarding state
+br0: topology change detected, propagating
+Start WLAN interface eth0 Done !!!
+start Guest Zone
+[/etc/templates/gzone.sh] ...
+[/var/run/gzone_start.sh] ...
+Start Guest Zone (br1/192.168.1.1/255.255.255.0)...
+[/etc/templates/enable_gzone.sh] ...
+[/var/run/enable_gzone_start.sh] ...
+start RG ...
+[/etc/templates/rg.sh] start ...
+[/var/run/rg_start.sh] ...
+Using /lib/modules/sw_tcpip.o
+REDSonic turbo net initialized
+imq driver loaded.
+Using /lib/modules/ifresetcnt.o
+Network interface reset count v1.0
+Using /lib/modules/ipt_string.o
+Using /lib/modules/ip_stun_func.o
+Register STUN module successes!
+sendto_unsock(/var/run/portt.unixsocket, flush)
+start DNRD ...
+[/etc/templates/dnrd.sh] ...
+[/var/run/dnrd_start.sh] ...
+Start DNRD ...
+Notice: caching turned off
+Start telnetd ...
+start UPNPD ...
+[/etc/templates/upnpd.sh] ...
+[/var/run/upnpd_start.sh] ...
+Starting UPnP ...
+[/var/run/upnp_alive.sh] ...
+start WAN ...
+Set WAN port media type 0
+[/etc/templates/wan.sh] start ...
+[/var/run/wan_start.sh] ...
+DHCP client on WAN(eth1.8) CloneMAC() ...
+start LLD2D ...
+[/etc/templates/lld2d.sh] ...
+[/var/run/lld2d_start.sh] ...
+Start LLD2 daemon ...
+start Neaps ...
+[/etc/templates/neaps.sh] start ...
+[/var/run/neaps_start.sh] ...
+Start Neap Server ...
+start lpd ...
+[/etc/templates/lpd.sh] ...
+killall: lpd: no process killed
+killall: rawlpd: no process killed
+shiang(797): Set_lpd_pid(5)
+shiang_lpd:s=515, Lpd_listen_port_DYN=(null), Lpd_port_DYN=515
+shiang_Ipp:s=off, Ipp_listen_port_DYN=off
+shiang_Unix:s=/var/run/lprng, Unix_socket_path_DYN=/var/run/lprng
+start igmpproxy ...
+[/etc/templates/igmpproxy.sh] start ...
+798: the pid_str=798 pofd 17 17!
+798: jobQueue_Init success!
+798: Into printer_Hotplug_Action()!
+798: After reset pDev_Queue, we check each entries!
+[/var/run/igmpproxy_stop.sh] ...
+Stop IGMP proxy ...
+[/etc/templates/igmpproxy_helper.sh] flush ...
+[/var/run/igmpproxy_helper.sh] ...
+[/etc/templates/rg.sh] misc ...
+[/var/run/rg_misc.sh] ...
+798: pclose!
+798: create socket success!
+798:The unix socket file path=/var/run/pof.d
+p9100d daemon
+server in ..
+after fork ..
+[/var/run/igmpproxy_start.sh] ...
+Start IGMP proxy ...
+[/etc/init.d/S10system.sh] done!
+rcS done!
+Starting pid 865, console /dev/tts/0: '/bin/sh'
+
+
+BusyBox v1.00 (2008.02.12-07:24+0000) Built-in shell (msh)
+Enter 'help' for a list of built-in commands.
+
+# [/var/run/upnp_alive.sh] ...
+Decompressing...........done
+
+
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Wed Mar 18 10:12:27 CST 2009 (leon@enzo)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 262144(0x40000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.3.0
+CPU type 0x29029: 240MHz
+Total memory: 32768 KBytes
+
+Total memory used by CFE:  0x80300000 - 0x803C0720 (788256)
+Initialized Data:          0x80337730 - 0x8033AE50 (14112)
+BSS Area:                  0x8033AE50 - 0x8033C720 (6352)
+Local Heap:                0x8033C720 - 0x803A0720 (409600)
+Stack Area:                0x803A0720 - 0x803C0720 (131072)
+Text (code) segment:       0x80300000 - 0x80337730 (227120)
+Boot area (physical):      0x003C1000 - 0x00401000
+Relocation Factor:         I:00000000 - D:00000000
+
+alpha bootcode ver 0.1.3
+cmd = ifconfig eth0 -addr=192.168.0.1 -mask=255.255.255.0
+We disable the arp for self.
+We disable the arp for self.
+Device eth0:  hwaddr F0-7D-68-75-DD-31, ipaddr 192.168.0.1, mask 255.255.255.0
+        gateway not set, nameserver not set
+cmd = go;
+cmd = load -raw -addr=0x803c0720 -max=0x3a0000 :
+Loader:raw Filesys:tftp Dev:eth0 File:: Options:(null)
+Loading: Decompressing...........done
+
+
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Wed Mar 18 10:12:27 CST 2009 (leon@enzo)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 262144(0x40000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.3.0
+CPU type 0x29029: 240MHz
+Total memory: 32768 KBytes
+
+Total memory used by CFE:  0x80300000 - 0x803C0720 (788256)
+Initialized Data:          0x80337730 - 0x8033AE50 (14112)
+BSS Area:                  0x8033AE50 - 0x8033C720 (6352)
+Local Heap:                0x8033C720 - 0x803A0720 (409600)
+Stack Area:                0x803A0720 - 0x803C0720 (131072)
+Text (code) segment:       0x80300000 - 0x80337730 (227120)
+Boot area (physical):      0x003C1000 - 0x00401000
+Relocation Factor:         I:00000000 - D:00000000
+
+alpha bootcode ver 0.1.3
+cmd = ifconfig eth0 -addr=192.168.0.1 -mask=255.255.255.0
+We disable the arp for self.
+We disable the arp for self.
+Device eth0:  hwaddr F0-7D-68-75-DD-31, ipaddr 192.168.0.1, mask 255.255.255.0
+        gateway not set, nameserver not set
+cmd = go;
+cmd = load -raw -addr=0x803c0720 -max=0x3a0000 :
+Loader:raw Filesys:tftp Dev:eth0 File:: Options:(null)
+Loading: Failed.
+Could not load :: Timeout occured
+Dest=80001000, source =803c0720, filename=flash1.trx
+image_head_Check OK
+magic = 20040220
+image size = 3100704
+devname = /dev/mtdblock/2
+digest check OK!!
+insize = 1048576, out size =8388608
+uncompressed size = 2203648
+lzma decompress success !
+Closing network.
+Starting program at 0x80001000
+CPU revision is: 00029029
+Primary instruction cache 16kb, linesize 16 bytes (4 ways)
+Primary data cache 16kb, linesize 16 bytes (2 ways)
+Linux version 2.4.20 (stpaul@enzo) (gcc version 3.2.3 with Broadcom modifications) #1 Mon Feb 4 17:51:41 CST 2008
+no need to call nvram_init()
+Setting the PFC to its default value
+Determined physical RAM map:
+ memory: 02000000 @ 00000000 (usable)
+On node 0 totalpages: 8192
+zone(0): 8192 pages.
+zone(1): 0 pages.
+zone(2): 0 pages.
+Kernel command line: root=/dev/mtdblock1 noinitrd console=ttyS0,115200
+CPU: BCM5354 rev 3 at 240 MHz
+Calibrating delay loop... 237.56 BogoMIPS
+Memory: 30036k/32768k available (1935k kernel code, 2732k reserved, 128k data, 68k init, 0k highmem)
+Dentry cache hash table entries: 4096 (order: 3, 32768 bytes)
+Inode cache hash table entries: 2048 (order: 2, 16384 bytes)
+Mount-cache hash table entries: 512 (order: 0, 4096 bytes)
+Buffer-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Page-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Checking for 'wait' instruction...  unavailable.
+POSIX conformance testing by UNIFIX
+PCI: no core
+PCI: Fixing up bus 0
+Linux NET4.0 for Linux 2.4
+Based upon Swansea University Computer Society NET3.039
+Initializing RT netlink socket
+Starting kswapd
+devfs: v1.12c (20020818) Richard Gooch (rgooch@atnf.csiro.au)
+devfs: boot_options: 0x1
+pty: 256 Unix98 ptys configured
+Serial driver version 5.05c (2001-07-08) with MANY_PORTS SHARE_IRQ SERIAL_PCI enabled
+ttyS00 at 0xb8000300 (irq = 3) is a 16550A
+ttyS01 at 0xb8000400 (irq = 0) is a 16550A
+HDLC line discipline: version $Revision$, maxframe=4096
+N_HDLC line discipline registered.
+PPP generic driver version 2.4.2
+PPP MPPE Compression module registered
+SCSI subsystem driver Revision: 1.00
+kmod: failed to exec /sbin/modprobe -s -k scsi_hostadapter, errno = 2
+kmod: failed to exec /sbin/modprobe -s -k scsi_hostadapter, errno = 2
+ Amd/Fujitsu Extended Query Table v1.3 at 0x0040
+ELBOX Physically mapped flash: Swapping erase regions for broken CFI table.
+number of CFI chips: 1
+Flash device: 0x400000 at 0x1fc00000
+ELBOX Physically mapped flash: squashfs filesystem found at block 960
+Creating 8 MTD partitions on "ELBOX Physically mapped flash":
+0x000f0080-0x00335080 : "rootfs"
+0x00040000-0x003e0000 : "upgrade"
+0x00030000-0x00040000 : "rgdb"
+0x003f6000-0x003f8000 : "bdcfg"
+0x003e0000-0x003f0000 : "langpack"
+0x00000000-0x00400000 : "flash"
+0x00000000-0x00030000 : "Boot"
+0x003f8000-0x00400000 : "nvram"
+usb.c: registered new driver usbdevfs
+usb.c: registered new driver hub
+ehci_hcd 00:03.1: PCI device 14e4:471a
+ehci_hcd 00:03.1: irq 6, pci mem b8003800
+usb.c: new USB bus registered, assigned bus number 1
+ehci_hcd 00:03.1: illegal capability!
+PCI: 00:03.1 PCI cache line size set incorrectly (0 bytes) by BIOS/FW, correcting to 32
+ehci_hcd 00:03.1: USB 0.0 enabled, EHCI 1.00, driver 2003-Dec-29/2.4
+hub.c: USB hub found
+hub.c: 2 ports detected
+host/usb-ohci.c: USB OHCI at membase 0xb8003000, IRQ 6
+host/usb-ohci.c: usb-00:03.0, PCI device 14e4:471a
+usb.c: new USB bus registered, assigned bus number 2
+hub.c: USB hub found
+hub.c: 2 ports detected
+usb.c: registered new driver usblp
+printer.c: v0.13: USB Printer Device Class driver
+Initializing USB Mass Storage driver...
+usb.c: registered new driver usb-storage
+USB Mass Storage support registered.
+NET4: Linux TCP/IP 1.0 for NET4.0
+IP Protocols: ICMP, UDP, TCP, IGMP
+Register ARP FLOOD sysctl entry successes!
+IP: routing cache hash table of 512 buckets, 4Kbytes
+TCP: Hash tables configured (established 2048 bind 4096)
+Linux IP multicast router 0.06 plus PIM-SM
+ip_conntrack version 2.1 (256 buckets, 2048 max) - 344 bytes per conntrack
+ip_tables: (C) 2000-2002 Netfilter core team
+ipt_time loading
+NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+NET4: Ethernet Bridge 008 for NET4.0
+802.1Q VLAN Support v1.7 Ben Greear <greearb@candelatech.com>
+All bugs added by David S. Miller <davem@redhat.com>
+FAT: bogus logical sector size 19968
+VFS: Mounted root (squashfs filesystem) readonly.
+Mounted devfs on /dev
+Freeing unused kernel memory: 68k freed
+init started:  BusyBox v1.00 (2008.02.12-07:24+0000) multi-call binary
+Starting pid 15, console /dev/tts/0: '/etc/init.d/rcS'
+Algorithmics/MIPS FPU Emulator v1.5
+[/etc/init.d/S03config.sh]
+Mounting proc and var ...
+Start xmldb ...
+[/etc/scripts/misc/profile.sh] get ...
+[/etc/scripts/misc/defnodes.sh] ...
+[/etc/defnodes/S10setext.sh] ...
+Decompressing...........done
+
+
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Wed Mar 18 10:12:27 CST 2009 (leon@enzo)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 262144(0x40000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.3.0
+CPU type 0x29029: 240MHz
+Total memory: 32768 KBytes
+
+Total memory used by CFE:  0x80300000 - 0x803C0720 (788256)
+Initialized Data:          0x80337730 - 0x8033AE50 (14112)
+BSS Area:                  0x8033AE50 - 0x8033C720 (6352)
+Local Heap:                0x8033C720 - 0x803A0720 (409600)
+Stack Area:                0x803A0720 - 0x803C0720 (131072)
+Text (code) segment:       0x80300000 - 0x80337730 (227120)
+Boot area (physical):      0x003C1000 - 0x00401000
+Relocation Factor:         I:00000000 - D:00000000
+
+alpha bootcode ver 0.1.3
+cmd = ifconfig eth0 -addr=192.168.0.1 -mask=255.255.255.0
+We disable the arp for self.
+We disable the arp for self.
+Device eth0:  hwaddr F0-7D-68-75-DD-31, ipaddr 192.168.0.1, mask 255.255.255.0
+        gateway not set, nameserver not set
+cmd = go;
+cmd = load -raw -addr=0x803c0720 -max=0x3a0000 :
+Loader:raw Filesys:tftp Dev:eth0 File:: Options:(null)
+Loading: Decompressing...........done
+
+
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Wed Mar 18 10:12:27 CST 2009 (leon@enzo)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 262144(0x40000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.3.0
+CPU type 0x29029: 240MHz
+Total memory: 32768 KBytes
+
+Total memory used by CFE:  0x80300000 - 0x803C0720 (788256)
+Initialized Data:          0x80337730 - 0x8033AE50 (14112)
+BSS Area:                  0x8033AE50 - 0x8033C720 (6352)
+Local Heap:                0x8033C720 - 0x803A0720 (409600)
+Stack Area:                0x803A0720 - 0x803C0720 (131072)
+Text (code) segment:       0x80300000 - 0x80337730 (227120)
+Boot area (physical):      0x003C1000 - 0x00401000
+Relocation Factor:         I:00000000 - D:00000000
+
+alpha bootcode ver 0.1.3
+cmd = ifconfig eth0 -addr=192.168.0.1 -mask=255.255.255.0
+We disable the arp for self.
+We disable the arp for self.
+Device eth0:  hwaddr F0-7D-68-75-DD-31, ipaddr 192.168.0.1, mask 255.255.255.0
+        gateway not set, nameserver not set
+cmd = go;
+cmd = load -raw -addr=0x803c0720 -max=0x3a0000 :
+Loader:raw Filesys:tftp Dev:eth0 File:: Options:(null)
+Loading: Failed.
+Could not load :: Timeout occured
+Dest=80001000, source =803c0720, filename=flash1.trx
+image_head_Check OK
+magic = 20040220
+image size = 3100704
+devname = /dev/mtdblock/2
+digest check OK!!
+insize = 1048576, out size =8388608
+uncompressed size = 2203648
+Decompressing...........done
+
+
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Wed Mar 18 10:12:27 CST 2009 (leon@enzo)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 262144(0x40000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.3.0
+CPU type 0x29029: 240MHz
+Total memory: 32768 KBytes
+
+Total memory used by CFE:  0x80300000 - 0x803C0720 (788256)
+Initialized Data:          0x80337730 - 0x8033AE50 (14112)
+BSS Area:                  0x8033AE50 - 0x8033C720 (6352)
+Local Heap:                0x8033C720 - 0x803A0720 (409600)
+Stack Area:                0x803A0720 - 0x803C0720 (131072)
+Text (code) segment:       0x80300000 - 0x80337730 (227120)
+Boot area (physical):      0x003C1000 - 0x00401000
+Relocation Factor:         I:00000000 - D:00000000
+
+alpha bootcode ver 0.1.3
+cmd = ifconfig eth0 -addr=192.168.0.1 -mask=255.255.255.0
+We disable the arp for self.
+We disable the arp for self.
+Device eth0:  hwaddr F0-7D-68-75-DD-31, ipaddr 192.168.0.1, mask 255.255.255.0
+        gateway not set, nameserver not set
+cmd = go;
+cmd = load -raw -addr=0x803c0720 -max=0x3a0000 :
+Loader:raw Filesys:tftp Dev:eth0 File:: Options:(null)
+Loading: 
+
+barebox 2014.01.0-00228-gac50230 #791 Sat Feb 1 12:38:11 MSK 2014
+
+
+Board: D-Link DIR-320
+netconsole: registered as cs1
+malloc space: 0xa0400000 -> 0xa07fffff (size 4 MiB)
+Open /dev/env0 No such file or directory
+running /env/bin/init...
+/env/bin/init not found
+login: password not set
+barebox:/ 
+barebox:/ 
+barebox:/ 
+barebox:/ 
+barebox:/ 
+barebox:/ 
+barebox:/ 
+barebox:/ 
+barebox:/ 
+barebox:/ 
+barebox:/ 3 
+barebox:/ 
+barebox:/ Decompressing...........done
+
+
+CFE version 1.0.37 for BCM947XX (32bit,SP,LE)
+Build Date: Wed Mar 18 10:12:27 CST 2009 (leon@enzo)
+Copyright (C) 2000,2001,2002,2003 Broadcom Corporation.
+
+Initializing Arena
+Initializing Devices.
+Boot partition size = 262144(0x40000)
+et0: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.3.0
+CPU type 0x29029: 240MHz
+Total memory: 32768 KBytes
+
+Total memory used by CFE:  0x80300000 - 0x803C0720 (788256)
+Initialized Data:          0x80337730 - 0x8033AE50 (14112)
+BSS Area:                  0x8033AE50 - 0x8033C720 (6352)
+Local Heap:                0x8033C720 - 0x803A0720 (409600)
+Stack Area:                0x803A0720 - 0x803C0720 (131072)
+Text (code) segment:       0x80300000 - 0x80337730 (227120)
+Boot area (physical):      0x003C1000 - 0x00401000
+Relocation Factor:         I:00000000 - D:00000000
+
+alpha bootcode ver 0.1.3
+cmd = ifconfig eth0 -addr=192.168.0.1 -mask=255.255.255.0
+We disable the arp for self.
+We disable the arp for self.
+Device eth0:  hwaddr F0-7D-68-75-DD-31, ipaddr 192.168.0.1, mask 255.255.255.0
+        gateway not set, nameserver not set
+cmd = go;
+cmd = load -raw -addr=0x803c0720 -max=0x3a0000 :
+Loader:raw Filesys:tftp Dev:eth0 File:: Options:(null)
+Loading: Failed.
+Could not load :: Timeout occured
+Dest=80001000, source =803c0720, filename=flash1.trx
+image_head_Check OK
+magic = 20040220
+image size = 3100704
+devname = /dev/mtdblock/2
+digest check OK!!
+insize = 1048576, out size =8388608
+uncompressed size = 2203648
+lzma decompress success !
+Closing network.
+Starting program at 0x80001000
+CPU revision is: 00029029
+Primary instruction cache 16kb, linesize 16 bytes (4 ways)
+Primary data cache 16kb, linesize 16 bytes (2 ways)
+Linux version 2.4.20 (stpaul@enzo) (gcc version 3.2.3 with Broadcom modifications) #1 Mon Feb 4 17:51:41 CST 2008
+no need to call nvram_init()
+Setting the PFC to its default value
+Determined physical RAM map:
+ memory: 02000000 @ 00000000 (usable)
+On node 0 totalpages: 8192
+zone(0): 8192 pages.
+zone(1): 0 pages.
+zone(2): 0 pages.
+Kernel command line: root=/dev/mtdblock1 noinitrd console=ttyS0,115200
+CPU: BCM5354 rev 3 at 240 MHz
+Calibrating delay loop... 237.56 BogoMIPS
+Memory: 30036k/32768k available (1935k kernel code, 2732k reserved, 128k data, 68k init, 0k highmem)
+Dentry cache hash table entries: 4096 (order: 3, 32768 bytes)
+Inode cache hash table entries: 2048 (order: 2, 16384 bytes)
+Mount-cache hash table entries: 512 (order: 0, 4096 bytes)
+Buffer-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Page-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Checking for 'wait' instruction...  unavailable.
+POSIX conformance testing by UNIFIX
+PCI: no core
+PCI: Fixing up bus 0
+Linux NET4.0 for Linux 2.4
+Based upon Swansea University Computer Society NET3.039
+Initializing RT netlink socket
+Starting kswapd
+devfs: v1.12c (20020818) Richard Gooch (rgooch@atnf.csiro.au)
+devfs: boot_options: 0x1
+pty: 256 Unix98 ptys configured
+Serial driver version 5.05c (2001-07-08) with MANY_PORTS SHARE_IRQ SERIAL_PCI enabled
+ttyS00 at 0xb8000300 (irq = 3) is a 16550A
+ttyS01 at 0xb8000400 (irq = 0) is a 16550A
+HDLC line discipline: version $Revision$, maxframe=4096
+N_HDLC line discipline registered.
+PPP generic driver version 2.4.2
+PPP MPPE Compression module registered
+SCSI subsystem driver Revision: 1.00
+kmod: failed to exec /sbin/modprobe -s -k scsi_hostadapter, errno = 2
+kmod: failed to exec /sbin/modprobe -s -k scsi_hostadapter, errno = 2
+ Amd/Fujitsu Extended Query Table v1.3 at 0x0040
+ELBOX Physically mapped flash: Swapping erase regions for broken CFI table.
+number of CFI chips: 1
+Flash device: 0x400000 at 0x1fc00000
+ELBOX Physically mapped flash: squashfs filesystem found at block 960
+Creating 8 MTD partitions on "ELBOX Physically mapped flash":
+0x000f0080-0x00335080 : "rootfs"
+0x00040000-0x003e0000 : "upgrade"
+0x00030000-0x00040000 : "rgdb"
+0x003f6000-0x003f8000 : "bdcfg"
+0x003e0000-0x003f0000 : "langpack"
+0x00000000-0x00400000 : "flash"
+0x00000000-0x00030000 : "Boot"
+0x003f8000-0x00400000 : "nvram"
+usb.c: registered new driver usbdevfs
+usb.c: registered new driver hub
+ehci_hcd 00:03.1: PCI device 14e4:471a
+ehci_hcd 00:03.1: irq 6, pci mem b8003800
+usb.c: new USB bus registered, assigned bus number 1
+ehci_hcd 00:03.1: illegal capability!
+PCI: 00:03.1 PCI cache line size set incorrectly (0 bytes) by BIOS/FW, correcting to 32
+ehci_hcd 00:03.1: USB 0.0 enabled, EHCI 1.00, driver 2003-Dec-29/2.4
+hub.c: USB hub found
+hub.c: 2 ports detected
+host/usb-ohci.c: USB OHCI at membase 0xb8003000, IRQ 6
+host/usb-ohci.c: usb-00:03.0, PCI device 14e4:471a
+usb.c: new USB bus registered, assigned bus number 2
+hub.c: USB hub found
+hub.c: 2 ports detected
+usb.c: registered new driver usblp
+printer.c: v0.13: USB Printer Device Class driver
+Initializing USB Mass Storage driver...
+usb.c: registered new driver usb-storage
+USB Mass Storage support registered.
+NET4: Linux TCP/IP 1.0 for NET4.0
+IP Protocols: ICMP, UDP, TCP, IGMP
+Register ARP FLOOD sysctl entry successes!
+IP: routing cache hash table of 512 buckets, 4Kbytes
+TCP: Hash tables configured (established 2048 bind 4096)
+Linux IP multicast router 0.06 plus PIM-SM
+ip_conntrack version 2.1 (256 buckets, 2048 max) - 344 bytes per conntrack
+ip_tables: (C) 2000-2002 Netfilter core team
+ipt_time loading
+NET4: Unix domain sockets 1.0/SMP for Linux NET4.0.
+NET4: Ethernet Bridge 008 for NET4.0
+802.1Q VLAN Support v1.7 Ben Greear <greearb@candelatech.com>
+All bugs added by David S. Miller <davem@redhat.com>
+FAT: bogus logical sector size 19968
+VFS: Mounted root (squashfs filesystem) readonly.
+Mounted devfs on /dev
+Freeing unused kernel memory: 68k freed
+init started:  BusyBox v1.00 (2008.02.12-07:24+0000) multi-call binary
+Starting pid 15, console /dev/tts/0: '/etc/init.d/rcS'
+Algorithmics/MIPS FPU Emulator v1.5
+[/etc/init.d/S03config.sh]
+Mounting proc and var ...
+Start xmldb ...
+[/etc/scripts/misc/profile.sh] get ...
+[/etc/scripts/misc/defnodes.sh] ...
+[/etc/defnodes/S10setext.sh] ...
+PHP [/etc/defnodes/S11setnodes.php] ...
+PHP [/etc/defnodes/S12features.php] ...
+PHP [/etc/defnodes/S13flashspeed.php] ...
+PHP [/etc/defnodes/S20setnodes.php] ...
+FAT: bogus logical sector size 17990
+VFS: Can't find a valid FAT filesystem on dev 1f:05.
+SQUASHFS error: Can't find a SQUASHFS superblock on mtdblock(31,5)
+mount: Mounting /dev/mtdblock/5 on /www/locale/alt failed: Invalid argument
+PHP [/etc/defnodes/S40brand.php] ...
+[/etc/scripts/misc/defnodes.sh] Done !!
+[/etc/templates/timezone.sh] ...
+[/etc/templates/logs.sh] ...
+[/var/run/logs_run.sh] ...
+Using /lib/modules/wl_apsta.o
+no need to call nvram_init()
+eth0: Broadcom BCM4318 802.11 Wireless Controller 4.150.10.5
+Set name-type for VLAN subsystem. Should be visible in /proc/net/vlan/config
+[/etc/templates/webs.sh] start ...
+[/var/run/webs_start.sh] ...
+Starting HTTPD ...
+/proc/sys/net/ipv4/netfilter/ip_conntrack_tcp_timeout_established: cannot create
+[/etc/init.d/S03config.sh] done!
+[/etc/init.d/S10system.sh]
+start fresetd ...
+Factory reset time : 5 secs
+WPS command : [/etc/templates/wps.sh pbc &]
+start scheduled ...
+[/etc/templates/scheduled.sh] start ...
+[/var/run/scheduled_start.sh] ...
+Start scheduled ...
+setup layout ...
+[/etc/scripts/layout.sh] start ...
+[/var/run/layout_start.sh] ...
+Start router layout ...
+Using /lib/modules/et.o
+no need to call nvram_init()
+eth1: Broadcom BCM47xx 10/100 Mbps Ethernet Controller 4.150.10.5
+eth1.6: Setting MAC address to  f0 7d 68 75 dd 30.
+device eth1 entered promiscuous mode
+VLAN (eth1.6):  Setting underlying device (eth1) to promiscious mode.
+eth1.0: Setting MAC address to  f0 7d 68 75 dd 2f.
+eth1.8: Setting MAC address to  f0 7d 68 75 dd 31.
+VLAN (eth1.8):  Underlying device (eth1) has same MAC, not checking promiscious mode.
+device eth0 entered promiscuous mode
+eth1.0: dev_set_promiscuity(master, 1)
+device eth1.0 entered promiscuous mode
+br0: port 2(eth1.0) entering learning state
+br0: port 2(eth1.0) entering forwarding state
+br0: topology change detected, propagating
+br0: port 1(eth0) multicast bandwidth 900kbps
+start LAN ...
+[/etc/templates/lan.sh] ...
+[/var/run/lan_start.sh] ...
+Start LAN (br0/192.168.0.1/255.255.255.0)...
+Start DHCP server (br0) ...
+Start igmp ...
+[/etc/templates/igmpproxy.sh] start ...
+[/var/run/igmpproxy_start.sh] ...
+Start IGMP proxy ...
+enable LAN ports ...
+Nothing to enable LAN ports!
+start WLAN ...
+[/etc/templates/wlan.sh] start ...
+[/var/run/wlan_start.sh] ...
+Start WLAN interface eth0 ...
+eth0: Numerical result out of range
+eth0: Invalid argument
+eth0: Invalid argument
+br0: port 1(eth0) entering learning state
+br0: port 1(eth0) entering forwarding state
+br0: topology change detected, propagating
+[/etc/templates/wps.sh] setie ...
+Configuration file: /var/run/hostapd.eth0.conf
+br0: port 1(eth0) entering disabled state
+Using interface eth0 with hwaddr f0:7d:68:75:dd:2f and ssid 'dlink'
+br0: port 1(eth0) entering learning state
+br0: port 1(eth0) entering forwarding state
+br0: topology change detected, propagating
+hostapd_setup_interface: return 0
+Start WLAN interface eth0 Done !!!
+start Guest Zone
+[/etc/templates/gzone.sh] ...
+[/var/run/gzone_start.sh] ...
+Start Guest Zone (br1/192.168.1.1/255.255.255.0)...
+[/etc/templates/enable_gzone.sh] ...
+[/var/run/enable_gzone_start.sh] ...
+start RG ...
+[/etc/templates/rg.sh] start ...
+[/var/run/rg_start.sh] ...
+Using /lib/modules/sw_tcpip.o
+REDSonic turbo net initialized
+imq driver loaded.
+Using /lib/modules/ifresetcnt.o
+Network interface reset count v1.0
+Using /lib/modules/ipt_string.o
+Using /lib/modules/ip_stun_func.o
+Register STUN module successes!
+sendto_unsock(/var/run/portt.unixsocket, flush)
+start DNRD ...
+[/etc/templates/dnrd.sh] ...
+[/var/run/dnrd_start.sh] ...
+Start DNRD ...
+Notice: caching turned off
+Start telnetd ...
+start UPNPD ...
+[/etc/templates/upnpd.sh] ...
+[/var/run/upnpd_start.sh] ...
+Starting UPnP ...
+[/var/run/upnp_alive.sh] ...
+start WAN ...
+Set WAN port media type 0
+[/etc/templates/wan.sh] start ...
+[/var/run/wan_start.sh] ...
+DHCP client on WAN(eth1.8) CloneMAC() ...
+start LLD2D ...
+[/etc/templates/lld2d.sh] ...
+[/var/run/lld2d_start.sh] ...
+Start LLD2 daemon ...
+start Neaps ...
+[/etc/templates/neaps.sh] start ...
+[/var/run/neaps_start.sh] ...
+Start Neap Server ...
+start lpd ...
+[/etc/templates/lpd.sh] ...
+killall: lpd: no process killed
+killall: rawlpd: no process killed
+shiang(797): Set_lpd_pid(5)
+shiang_lpd:s=515, Lpd_listen_port_DYN=(null), Lpd_port_DYN=515
+shiang_Ipp:s=off, Ipp_listen_port_DYN=off
+shiang_Unix:s=/var/run/lprng, Unix_socket_path_DYN=/var/run/lprng
+start igmpproxy ...
+798: the pid_str=798 pofd 17 17!
+798: jobQueue_Init success!
+798: Into printer_Hotplug_Action()!
+798: After reset pDev_Queue, we check each entries!
+[/etc/templates/igmpproxy.sh] start ...
+[/var/run/igmpproxy_stop.sh] ...
+Stop IGMP proxy ...
+[/etc/templates/igmpproxy_helper.sh] flush ...
+[/var/run/igmpproxy_helper.sh] ...
+[/etc/templates/rg.sh] misc ...
+[/var/run/rg_misc.sh] ...
+798: pclose!
+798: create socket success!
+798:The unix socket file path=/var/run/pof.d
+p9100d daemon
+server in ..
+after fork ..
+[/var/run/igmpproxy_start.sh] ...
+Start IGMP proxy ...
+[/etc/init.d/S10system.sh] done!
+rcS done!
+Starting pid 865, console /dev/tts/0: '/bin/sh'
+
+
+BusyBox v1.00 (2008.02.12-07:24+0000) Built-in shell (msh)
+Enter 'help' for a list of built-in commands.
+
+# [/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+[/var/run/upnp_alive.sh] ...
+

@@ -1,0 +1,97 @@
+#!/bin/sh
+
+# standolite shell, invoked from ~/.ssh/authorized_keys
+# ----------------------------------------------------------------------
+
+USER_NAME="$1"
+set -- $SSH_ORIGINAL_COMMAND
+CMD="$1"
+
+#echo "standolite-shell: USER_NAME='$USER_NAME'"
+echo
+echo "hello $USER_NAME, this is $(whoami)@$(hostname) running standolite"
+echo
+
+if [ "$CMD" = "help" -o "$CMD" = "" ]; then
+	echo "Your commands:"
+	echo "   list"
+	echo "   attach <stand-name>"
+	echo "   log <stand-name>"
+#	echo "   start <stand-name>"
+#	echo "   stop <stand-name>"
+#	echo "   restart <stand-name>"
+	echo
+	echo
+	echo "add this to your .ssh/config"
+	echo
+
+	cat <<EOF;
+-----------------------
+host standolite
+        Hostname <standolite gateway name/IP>
+        Port <standolite gateway TCP port>
+        User standolite
+        IdentityFile <home dir prefix>/.ssh/your-standolite-id_rsa
+        ForwardX11 no
+        RequestTTY force
+	LocalForward localhost:8000 localhost:8000
+-----------------------
+
+ssh standolite list
+ssh standolite attach <standname>
+EOF
+
+	exit
+fi
+
+if [ "$CMD" = "list" ]; then
+	echo "Available stands:"
+	tmux list-sessions | sed "s/:.*$//;s/^/    /"
+	echo
+	exit
+fi
+
+onsighup()
+{
+	echo "$(date): $USER_NAME exited" >> $SN_PREFIX/log/login.log
+}
+
+if [ "$CMD" = "attach" ]; then
+	#session name
+	sn="$2"
+
+	SN_PREFIX=~/standolite/stands/$sn
+	BANNER_TMP=$SN_PREFIX/banner.tmp
+
+	echo "$(date): $USER_NAME logged in" >> $SN_PREFIX/log/login.log
+
+	clear > $BANNER_TMP
+	cat $SN_PREFIX/banner.txt | tail -n 21 >> $BANNER_TMP
+	cat $SN_PREFIX/log/login.log | tail -n 3 >> $BANNER_TMP
+
+	trap 'onsighup' HUP
+	tmux select-window -t "$sn:0"
+	mkdir -p $SN_PREFIX/log
+	ttyrec -e "tmux attach -t $sn" $SN_PREFIX/log/$USER_NAME.$(date +%Y-%m-%d_%H-%M-%S).ttyrec
+fi
+
+if [ "$CMD" = "log" ]; then
+	#session name
+	sn="$2"
+
+	SN_PREFIX=~/standolite/stands/$sn
+
+	cat $SN_PREFIX/log/login.log
+fi
+
+if [ "$CMD" = "ttyplay" ]; then
+	#session name
+	sn="$2"
+
+	SN_PREFIX=~/standolite/stands/$sn
+
+	FILE=$(dialog --stdout --title "Please choose a file" --fselect $SN_PREFIX/log/ 20 72)
+	ttyplay $FILE
+fi
+
+echo
