@@ -1,0 +1,51 @@
+#!/bin/bash
+
+vars=( $SSH_ORIGINAL_COMMAND )
+
+usage()
+{
+		echo
+		echo
+		echo "ssh bastion"
+		echo
+		echo "commands:"
+		echo "  forward-to <host>"
+		echo
+		cat <<EOF
+Sample ~/.ssh/config
+
+host bastion
+	Hostname <GW IP>
+	User bastion
+	IdentityFile <PATH-TO-KEY>
+	IdentitiesOnly yes
+	ForwardX11 no
+
+host <HOSTNAME>
+	User <USERNAME>
+	IdentityFile <PATH-TO-KEY>
+	ProxyCommand ssh bastion forward-to <HOSTNAME>
+
+EOF
+		echo
+		echo
+}
+
+case "${vars[0]}" in
+
+	"forward-to")
+		case "${vars[1]}" in
+			"DEV")
+				ssh dev -W localhost:22
+				exit 0
+			;;
+		esac
+
+		exit 0
+                ;;
+
+	*)
+		usage
+		exit 1
+		;;
+esac
